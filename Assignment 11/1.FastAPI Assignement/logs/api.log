@@ -1,0 +1,5 @@
+INFO:root:Retrieved categories: skip=0, limit=10, count=0
+INFO:root:Created company: 1
+INFO:root:Created category: ID=1, Name='string'
+INFO:root:Retrieved categories: skip=0, limit=10, count=1
+INFO:root:Retrieved category: ID=1

@@ -1,0 +1,46 @@
+INFO:root:Retrieved categories: skip=0, limit=10, count=0
+INFO:root:Created company: 1
+INFO:root:Created category: ID=1, Name='string'
+INFO:root:Retrieved categories: skip=0, limit=10, count=1
+INFO:root:Retrieved category: ID=1
+INFO:httpx:HTTP Request: GET http://localhost:6847/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:5446/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:5454/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:14538/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:11536/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:12811/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:12814/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:12111/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:12114/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:12126/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:12129/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:13916/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:13924/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:13933/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:13943/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:1114/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:2465/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:3499/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:root:Created company ID=1
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:root:Created company ID=2
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:root:Created company ID=3
+INFO:httpx:HTTP Request: POST http://localhost:3499/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://localhost:5383/status "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://localhost:5383/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://localhost:5383/ "HTTP/1.1 200 OK"
+INFO:root:Created category: ID=1, Name=string
