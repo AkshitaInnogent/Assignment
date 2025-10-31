@@ -10,6 +10,7 @@ import pandas as pd
 app = FastAPI()
 db = Prisma()
 # App startup aur shutdown par DB connection manage karein
+
 @app.on_event("startup")
 async def startup():
     await db.connect()
@@ -17,6 +18,7 @@ async def startup():
 async def shutdown():
     if db.is_connected():
         await db.disconnect()
+        
 # Task 1: API to upload and process CSV
 @app.post("/upload-csv")
 async def upload_csv(file: UploadFile = File(...)):
@@ -51,6 +53,9 @@ class ProductCreate(BaseModel):
     price: int
     stock: int
 # Task 2: API to add data via JSON
+
+
+
 @app.post("/add-product")
 async def add_product(product: ProductCreate):
     try:
@@ -64,7 +69,9 @@ async def add_product(product: ProductCreate):
         return new_product
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error in adding product: {e}")
-        
+
+
+
 # Task 3 & 4: API to download data
 @app.get("/download-data")
 async def download_data(
@@ -100,6 +107,7 @@ async def download_data(
         return products
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error in fetching data: {e}")
+
 
 
 
