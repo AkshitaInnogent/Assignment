@@ -52,10 +52,9 @@ class ProductCreate(BaseModel):
     name: str
     price: int
     stock: int
+
+
 # Task 2: API to add data via JSON
-
-
-
 @app.post("/add-product")
 async def add_product(product: ProductCreate):
     try:
@@ -107,6 +106,7 @@ async def download_data(
         return products
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error in fetching data: {e}")
+
 
 
 
