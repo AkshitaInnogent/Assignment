@@ -1,0 +1,92 @@
+.header {
+  background: var(--main-bg);
+  background-color: #d7d0c5;
+  color: var(--headline);
+  padding: 1.2rem 0 0.8rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: var(--shadow-sm);
+  border-bottom: 1px solid var(--border);
+  
+  
+}
+.container-2{
+  display: flex;
+  justify-content: space-between;
+  width: 57%;
+}
+
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo a {
+  font-family: var(--serif);
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--headline);
+  text-decoration: none;
+}
+
+.nav-left {
+  display: flex;
+  gap: 2.1rem;
+}
+
+.nav-left a {
+  color: var(--dark);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.07rem;
+  transition: color 0.2s ease;
+  opacity: 0.9;
+}
+
+.nav-left a:hover {
+  color: var(--accent-green);
+}
+
+.icons {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.icons button {
+  background: var(--button-light);
+  border: 1px solid var(--border);
+  border-radius: 1.2rem;
+  padding: 0.45rem 1.25rem;
+  color: var(--dark);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.18s ease;
+}
+
+.icons button:hover {
+  background: var(--accent-green);
+  color: white;
+  border-color: var(--accent-green);
+  transform: translateY(-1.5px);
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .nav-left, .icons {
+    order: 3;
+  }
+  .logo {
+    order: 1;
+  }
+}

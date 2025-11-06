@@ -1,0 +1,128 @@
+.landing-page {
+  padding: 3.8rem 0 1.6rem 0;
+  background: var(--main-bg);
+}
+
+.landing-page h1 {
+  text-align: center;
+  font-size: 3.1rem;
+  font-family: var(--serif);
+  font-weight: 800;
+  margin-bottom: 2rem;
+  color: #546e4f;
+  letter-spacing: -2px;
+  background: none;
+}
+
+.landing-page .accent {
+  color: var(--headline-accent);
+  font-weight: 900;
+}
+
+.landing-page h1::after {
+  content: '';
+  width: 120px;
+  height: 4px;
+  background: var(--accent-green);
+  display: block;
+  margin: 1.1rem auto;
+  border-radius: 3px;
+}
+
+.landing-page p {
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--dark);
+  opacity: 0.78;
+  margin-bottom: 2.2rem;
+}
+
+.landing-page .btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.landing-page .btn-group button {
+  background: var(--button-dark);
+  color: white;
+  border: none;
+  border-radius: 0.7rem;
+  padding: 0.9rem 2rem;
+  font-size: 1.12rem;
+  font-family: var(--serif);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.landing-page .btn-group button:last-child {
+  background: var(--button-light);
+  color: var(--dark);
+  border: 1px solid var(--border);
+}
+
+.landing-page .btn-group button:hover {
+  background: var(--accent-green);
+  color: white;
+}
+
+.featured-section {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.featured-section h2 {
+  font-family: var(--serif);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--headline);
+  margin-bottom: 0.7rem;
+}
+
+.featured-section p {
+  color: var(--dark);
+  font-size: 1.08rem;
+  opacity: 0.68;
+  margin-bottom: 2.6rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 2.1rem;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: #f7f4f1;
+  border-radius: 1.3rem;
+  padding: 0.9rem 2rem;
+  margin: 0 auto 2.2rem auto;
+  box-shadow: 0 2px 8px rgba(213,206,199,0.08);
+  max-width: 680px;
+  position: relative;
+  top: 0.5rem;
+}
+
+.filters input,
+.filters select {
+  padding: 0.7rem 1.2rem;
+  border-radius: 1.3rem;
+  border: 1.5px solid #e2ddd7;
+  font-size: 1rem;
+  background: white;
+  color: #23242c;
+  min-width: 150px;
+  transition: border-color 0.18s;
+}
+
+.filters input:focus,
+.filters select:focus {
+  outline: none;
+  border-color: #4a6e4f;
+  box-shadow: 0 0 0 2px #cadfce50;
+}
